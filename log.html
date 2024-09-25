@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mini Calculator</title>
+       
+	</head>
+	<body>
+		<h1>Mini Calculator</h1>
+		<p>Click the button to calculate 2 x 3:</p>
+		<button  onclick="calculate()">Calculate</button>
+		<p> <span id="Answer"></span></p>
+
+		<script>
+			function calculate() {
+				const result = 2 * 3;
+				document.getElementById("Answer").textContent = result;
+			}
+		</script>
+	</body>
+</html>
